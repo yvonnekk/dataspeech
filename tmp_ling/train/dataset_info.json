@@ -1,0 +1,102 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "bznsyp_label_small",
+  "dataset_size": 1435592,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/yvonne66/bznsyp_label_small@0f5345cc2d9bbc54b131ed095f7e91c0c0f65d6b/data/train-00000-of-00001.parquet": {
+      "num_bytes": 656049,
+      "checksum": null
+    }
+  },
+  "download_size": 656049,
+  "features": {
+    "file_name": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "utterance_pitch_mean": {
+      "dtype": "float32",
+      "_type": "Value"
+    },
+    "utterance_pitch_std": {
+      "dtype": "float32",
+      "_type": "Value"
+    },
+    "snr": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "c50": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "speaking_rate": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "phonemes": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "stoi": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "si-sdr": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "pesq": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "noise": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "reverberation": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "speech_monotony": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sdr_noise": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "pesq_speech_quality": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "text_description": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 2091641,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1435592,
+      "num_examples": 3900,
+      "dataset_name": "bznsyp_label_small"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
